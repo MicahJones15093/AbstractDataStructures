@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">Structure Super Stars</string>
+    <string name="action_settings">Settings</string>
+    <string name="priorityPrompt">To begin, please add 5 patients to the line! (Press the hospital icon, then a patient icon to add to the line)</string>
+    <string name="priorityPrompt2">Now that your line is full, drag the patients to the nurse in the order the priority queue would.</string>
+    <string name="priorityPrompt3">If you would like to play again, fill up your line with new patients!</string>
+    <string name="priorityHelp"><b>Priority Queue</b>
+        \n
+        Priority queues are an extension of queues. The main difference between the two, is each element
+        has an associated priority with it. We can think of priority queue like a hospital line. If everyone has similar conditions, they are served in
+        the order they arrived (like a queue). However, if someone arrives with a more serious condition, they are given higher priority and served first.
+        \n\n\n
+        <b>Let\'s Practice How They Work!</b>
+        \n
+        To practice, begin by filling your priority queue with hospital patients. The sad emoji represents a sick patient(the lowest priority), The fever
+        emoji represents an even sicker patient, (middle priority), and the zombie emoji represents the sickest patients (highest priority). When you have
+        your queue with 5 patients, practice removing the patients from the line like a priority queue would by dragging and dropping the highest priority
+        patient.
+        </string>
+    <string name="mainInfo">
+        Abstract Data Types (ADT) are objects whose behavior is defined by a set of values and a set of operations. Basically, it is a way of storing things, and
+        being able to do different operations on those things, such as which order you retrieve them in. We\'re going to practice working with three different
+        types of ADTs, stack, queue, and priority queue. To see how one of them works, select it below.
+        </string>
+
+    <!-- StackGame Values -->
+    <string name="Q1">Adam finished his apple pie. Add his plate to the pile.</string>
+    <!--<StackChoice name = "A1">PUSH</StackChoice>-->
+    <string name="L1">A</string>
+
+    <string name="Q2">Time to wash a dish.</string>
+    <!--<StackChoice name = "A2">POP</StackChoice>-->
+    <string name="L2">*</string>
+
+    <string name="Q3">Isabella finished her ice cream. Add her plate to the pile.</string>
+    <!--<StackChoice name = "A3">PUSH</StackChoice>-->
+    <string name="L3">I</string>
+
+    <string name="Q4">Carlie finished her Cajun chicken. Add her plate to the pile.</string>
+    <!--<StackChoice name = "A4">PUSH</StackChoice>-->
+    <string name="L4">C</string>
+
+    <string name="Q5">Time to wash a dish.</string>
+    <!--<StackChoice name = "A5">POP</StackChoice>-->
+    <string name="L5">*</string>
+
+    <string name="Q6">Harry finished his hamburger.</string>
+    <!--<StackChoice name = "A6">POP</StackChoice>-->
+    <string name="L6">*</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="stackHelp"><b>Stack</b>
+        \n
+        A stack is a linear data structure. That means elements are stored one after the other and only one can be reached at a time. Stacks behave in a
+        Last In First Out (LIFO) manner. You can think of this like adding dishes to a pile and then washing them. You can add as many dishes as you
+        wish but you will always wash the dish on the top of the stack first.
+        \n\n\n
+        <b>Let\'s Practice How They Work!</b>
+        \n
+        Let\'s help David the Dishwasher with his dishes today! It is a very busy day at the restaurant and he needs your help. Once a customer is finished
+        with their plate, add it to the stack by clicking the dish button on the top left. When it is time to clean a dish, click the sponge button on the
+        top right. There is a hidden message at the end!
+        </string>
+
+
+
+    <!-- Queue -->
+    <string name="queuePrompt"> It is school day for our friends and the bus has just arrived. Help them line up to get on the bus. \n
+                              Press the bus icon, then one of the students to add to the line</string>
+    <string name="queuePrompt2">Now that your line is full, drag the students to the bus in the same order they entered the line.</string>
+    <string name="queuePrompt3">If you would like to play again, fill up your line with new students!</string>
+
+    <string name="queueHelp"><b>Queue</b>
+        \n
+        Queues are somewhat similar to Stacks. The main difference between the two is that in a queue, the first element inserted (enqueued) is also the
+        first element removed (dequeued).
+        We can think of queue like a bus line. The student in the front of the line is the first one to get on the bus. In other words, the students
+        get in the bus in the same order they arrived in line. If the student who is not in the front of the line try to get on the bus before the other ones
+        the access will be denied to him because he is not following the rule.
+        \n\n\n
+        <b>Let\'s Practice How They Work!</b>
+        \n
+        To practice, begin by filling your line (queue) with students. You can add them in any order you would like. Just remember that the first student
+        you add to your line has to be the first one to you go in the bus.
+        When you have your queue with 5 students, practice removing the students from the line in the same order you added them. To do so, drag and drop the student
+        to the bus.
+  </string>
+
+</resources>
